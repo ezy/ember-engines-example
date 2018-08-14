@@ -23,7 +23,7 @@ module.exports = function(app) {
   let postRouter = express.Router();
 
   postRouter.get('/', function(req, res) {
-    res.send({ post });
+    res.send({ posts: [post] });
   });
 
   postRouter.post('/', function(req, res) {
