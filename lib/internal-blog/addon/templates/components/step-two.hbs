@@ -1,0 +1,12 @@
+<h3>Step two || component with data</h3>
+{{#each model.posts as |post|}}
+  <p>
+    {{post.id}}<br>
+    {{post.pType}}<br>
+    {{post.pTitle}}<br>
+    {{post.pSlug}}<br>
+    {{post.pDate}}<br>
+    {{post.pText}}<br>
+    {{post.pAuthor}}
+  </p>
+{{/each}}

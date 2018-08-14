@@ -1,22 +1,7 @@
 <h3>Child app posts view</h3>
 {{#link-to-external "homePosts"}}App posts{{/link-to-external}}
 <h4>Cloned post from parent store</h4>
-{{#each model.posts as |post|}}
-  <p>
-    {{post.id}}<br>
-    {{post.pType}}<br>
-    {{post.pTitle}}<br>
-    {{post.pSlug}}<br>
-    {{post.pDate}}<br>
-    {{post.pText}}<br>
-    {{post.pAuthor}}<br>
-    {{post.pImage}}<br>
-    {{post.pMedia}}<br>
-    {{post.pStatus}}<br>
-    {{post.pExpiry}}<br>
-    {{post.pFreq}}<br>
-    {{post.createdAt}}<br>
-    {{post.updatedAt}}
-  </p>
-{{/each}}
+<button {{action "stepOne"}}>Load step-one</button>
+<button {{action "stepTwo"}}>Load step-two</button>
+{{component dynamicRoute model=model}}
 {{outlet}}
