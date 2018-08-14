@@ -1,7 +1,12 @@
-# msd-ember-engines
+# Ember Engines Example App
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+A small application that provides a robust example of how a standalone ember engine
+interacts with it's parent app. In the parent application, there is a single model and route (post)
+that is fetched and stored in [Ember Simple Store](https://github.com/toranb/ember-cli-simple-store).
+The `simpleStore` service is then shared between the parent app and the ember engine,
+allowing the model from the parent to be accessed or fetched fresh on load.
+The engine contains a sub-route complete with controller and template, alongside two
+components that can be changed dynamically using a param within the `sub-post.js` controller.
 
 ## Prerequisites
 
@@ -15,7 +20,7 @@ You will need the following things properly installed on your computer.
 ## Installation
 
 * `git clone <repository-url>` this repository
-* `cd msd-ember-engines`
+* `cd ember-engines-example`
 * `npm install`
 
 ## Running / Development
