@@ -1,5 +1,6 @@
-<h2>Parent posts view</h2>
-{{#link-to "internal-blog.sub-posts"}}Internal blog{{/link-to}}
+<h3>Child app posts view</h3>
+{{#link-to-external "homePosts"}}App posts{{/link-to-external}}
+<h4>Cloned post from parent store</h4>
 {{#each model.posts as |post|}}
   <p>
     {{post.id}}<br>
@@ -18,3 +19,4 @@
     {{post.updatedAt}}
   </p>
 {{/each}}
+{{outlet}}
