@@ -1,16 +1,20 @@
+<h2>Parent posts view</h2>
+{{#link-to "internal-blog.index"}}Internal blog{{/link-to}}
 {{#each model.posts as |post|}}
-{{post.id}}<br>
-{{post.pType}}<br>
-{{post.pTitle}}<br>
-{{post.pSlug}}<br>
-{{post.pDate}}<br>
-{{post.pText}}<br>
-{{post.pAuthor}}<br>
-{{post.pImage}}<br>
-{{post.pMedia}}<br>
-{{post.pStatus}}<br>
-{{post.pExpiry}}<br>
-{{post.pFreq}}<br>
-{{post.createdAt}}<br>
-{{post.updatedAt}}
+  <p>
+    {{post.id}}<br>
+    {{post.pType}}<br>
+    {{post.pTitle}}<br>
+    {{post.pSlug}}<br>
+    {{post.pDate}}<br>
+    {{post.pText}}<br>
+    {{post.pAuthor}}<br>
+    {{post.pImage}}<br>
+    {{post.pMedia}}<br>
+    {{post.pStatus}}<br>
+    {{post.pExpiry}}<br>
+    {{post.pFreq}}<br>
+    {{post.createdAt}}<br>
+    {{post.updatedAt}}
+  </p>
 {{/each}}

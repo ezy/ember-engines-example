@@ -13,7 +13,10 @@ const App = Application.extend({
       dependencies: {
         services: [
           'simple-store'
-        ]
+        ],
+        externalRoutes: {
+          homePosts: 'post'
+        }
       }
     }
   }

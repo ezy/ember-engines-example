@@ -6,6 +6,7 @@ import $ from 'jquery';
 export default Mixin.create({
   simpleStore: inject(),
   findAll(model) {
+    console.info('store loading'); // eslint-disable-line no-console
     const simpleStore = this.get("simpleStore");
     return new RSVP.Promise(function(resolve, reject) {
       $.getJSON(`/api/${model}/`).then(function(data) {
