@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   let ENV = {
-    modulePrefix: 'msd-ember-engines',
+    modulePrefix: 'ember-engines-example',
     environment,
     rootURL: '/',
     locationType: 'auto',

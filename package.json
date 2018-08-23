@@ -1,15 +1,15 @@
 {
   "name": "ember-engines-example",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "private": true,
   "description": "An ember engines example application that has a parent app with shared data store, model and dynamic component routing",
   "license": "MIT",
   "author": "Ezra Keddell",
+  "repository": "https://github.com/ezy/ember-engines-example",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "https://github.com/ezy/ember-engines-example",
   "scripts": {
     "build": "ember build",
     "lint:js": "eslint ./*.js app blueprints config lib server tests",

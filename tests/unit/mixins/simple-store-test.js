@@ -1,5 +1,5 @@
 import EmberObject from '@ember/object';
-import SimpleStoreMixin from 'msd-ember-engines/mixins/simple-store';
+import SimpleStoreMixin from 'ember-engines-example/mixins/simple-store';
 import { module, test } from 'qunit';
 
 module('Unit | Mixin | simple-store', function() {
