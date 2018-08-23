@@ -1,9 +1,8 @@
 {
-  "name": "Ember engines example",
+  "name": "ember-engines-example",
   "version": "0.0.1",
   "private": true,
-  "description": "An ember engines example application that has a parent app with
-  shared data store, model and dynamic component routing",
+  "description": "An ember engines example application that has a parent app with shared data store, model and dynamic component routing",
   "license": "MIT",
   "author": "Ezra Keddell",
   "directories": {
