@@ -8,6 +8,8 @@ allowing the model from the parent to be accessed or fetched fresh on load.
 The engine contains a sub-route complete with controller and template, alongside two
 components that can be changed dynamically using a param within the `sub-post.js` controller.
 
+![Ember engines example diagram](https://github.com/ezy/ember-engines-example/blob/master/public/engines-diagram.png?raw=true)
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
